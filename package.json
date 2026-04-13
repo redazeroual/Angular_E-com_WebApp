@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:TP4": "node dist/tp4/server/server.mjs"
+    "serve:ssr:TP4": "node dist/tp4/server/server.mjs",
+    "deploy " : "npx ng deploy --base-href=/Angular_E-com_WebApp/" 
   },
   "private": true,
   "dependencies": {
